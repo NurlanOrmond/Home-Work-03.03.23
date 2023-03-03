@@ -26,7 +26,7 @@ void ShowArray (double [,] a)
     {
         for (int j = 0; j < a.GetLength(1); j++)
         {
-            System.Console.Write(Math.Round(a[i,j], 1, MidpointRounding.AwayFromZero)+" ");
+            System.Console.Write(Math.Round(a[i,j], 2, MidpointRounding.AwayFromZero)+" ");
         }
         System.Console.WriteLine();
     }

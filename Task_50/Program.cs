@@ -41,9 +41,9 @@ void ValueOfIndex (int [,] arr)
 
     if (row < arr.GetLength(0) && col < arr.GetLength(1))
     {
-        System.Console.WriteLine($"\nThe value positioned at row ({row}) column ({col}) is: {arr[row,col]} \n" );
+        System.Console.WriteLine($"\nThe value positioned at row ({row}) column ({col}) is: {arr[row,col]} \n\n" );
     } 
-    else System.Console.WriteLine($"\nThe value positioned at row {row} column {col} is not exist! \n" );
+    else System.Console.WriteLine($"\nThe value positioned at row {row} column {col} is not exist! \n\n" );
 
 
 }
